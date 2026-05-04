@@ -16,7 +16,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex justify-between items-center h-20">
           {/* Logo Area */}
           <div className="shrink-0 flex items-center cursor-pointer gap-2">
-            <Image src="/logo.png" alt="Logo" width={50} height={50} />
+            <Image src="/toddev_logo.png" alt="Logo" width={50} height={50} />
             <span className="text-2xl font-extrabold text-orange-600 tracking-tight">
               Toddev<span className="text-gray-800 font-light">-cooking</span>
             </span>
