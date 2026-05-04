@@ -24,11 +24,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         />
       </div>
 
-      <div className="p-6 flex flex-col flex-grow">
+      <div className="p-6 flex flex-col  grow">
         <h3 className="text-xl font-semibold text-gray-900 mb-2">
           {product.name}
         </h3>
-        <p className="text-gray-500 text-sm mb-6 flex-grow">
+        <p className="text-gray-500 text-sm mb-6  grow">
           {product.description}
         </p>
 
